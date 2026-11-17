@@ -1,0 +1,30 @@
+
+body{
+    background-color: salmon;
+}
+
+.block{
+    background-color: beige;
+border-radius: 80% 20% 37% 63% / 29% 75% 25% 71% ;
+border: 3px transparent solid;
+
+margin: 30px;
+
+width: 1000px;
+height: 1000px;
+
+background-image: url(../../a_aroken_vodni_modyl/hans-jurgen-mager-qQWV91TTBrE-unsplash.jpg);
+
+background-repeat: no-repeat;
+background-size:contain;
+
+background-position: 50%;
+
+outline: 20px double rgba(0, 0, 255, 0.254);
+outline-offset: 150px;
+
+
+
+
+
+}

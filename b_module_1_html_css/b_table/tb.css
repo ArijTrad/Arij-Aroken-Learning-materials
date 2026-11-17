@@ -1,0 +1,49 @@
+*{
+
+
+    font-family: sans-serif;
+
+}
+
+
+table{
+    border-collapse:collapse;
+
+
+}
+
+
+th,
+td
+{
+    border: 1px solid black;
+    padding: 0.5rem;
+height: 1.5rem;
+width: 1.5rem;
+
+text-align: center;
+}
+
+caption{
+    font-weight:800;
+    border: 1px solid black;
+    border-bottom: none;
+height: 1.5rem;
+    padding: 0.5rem;
+
+
+}
+
+th{
+font-weight: 600;
+}
+
+
+
+/* Targets the 6th and 7th column cells in the header <th> and body <td>
+and the exception cell due to colspans*/
+th:nth-child(6), th:nth-child(7)  , td:nth-child(6), td:nth-child(7) , .exception-for-nth-child {
+    color: red;
+    font-weight: 600;
+}
+
