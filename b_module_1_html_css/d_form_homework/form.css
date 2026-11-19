@@ -1,0 +1,51 @@
+body{
+    height: 9000px;
+}
+
+*{
+    font-family: sans-serif;
+}
+
+fieldset {
+  /* border: 1px solid #333; */
+  border-radius: 8px;
+   width: 300px;
+}
+
+label{
+    display: inline-block;
+    margin: 0.7em auto 0.1em;
+}
+
+input:not([type="checkbox"]) {
+  height: 20px;
+}
+
+
+textarea {
+  max-height: 200px;
+  min-height: 50px;
+  resize: vertical;
+
+}
+
+textarea , input:not([type="checkbox"]){
+      width: 200px;
+  border: 1.2px solid #333;
+  border-radius: 4px;
+padding-left: 10px;
+
+}
+
+
+button{
+    margin-top: 1em;
+}
+
+
+
+ button , #checkbox-input {
+    cursor: pointer;
+}
+
+
